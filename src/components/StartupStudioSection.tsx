@@ -123,7 +123,7 @@ const StartupStudioSection = () => {
   return (
     <div className="bg-gradient-to-b from-background via-background to-background/95 text-foreground">
       {/* HERO */}
-      <section className="border-y bg-gradient-to-b from-slate-950 via-slate-950/95 to-background py-20 sm:py-24">
+      <section className="border-y bg-gradient-to-b from-slate-950 via-slate-950/95 to-background pb-20 pt-32 sm:pb-24 lg:pt-40">
         <div className="container">
           <div className="grid gap-12 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] lg:items-center">
             <div>

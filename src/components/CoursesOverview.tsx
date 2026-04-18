@@ -16,7 +16,7 @@ const iconMap: Record<string, React.ReactNode> = {
 
 const CoursesOverview = () => {
   return (
-    <section id="courses" className="py-20">
+    <section id="courses" className="pb-20 pt-10">
       <div className="container">
         <div className="mx-auto mb-12 max-w-2xl text-center">
           <h2 className="mb-4 font-display text-3xl font-bold sm:text-4xl">Our Programs</h2>
