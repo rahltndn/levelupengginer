@@ -6,9 +6,9 @@ import { motion } from "framer-motion";
 
 const StartupContact = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-gradient-to-br from-background via-background to-accent/20">
       <Navbar />
-      <main>
+      <main className="pt-20">
         <section className="py-20">
           <div className="container">
             <motion.div

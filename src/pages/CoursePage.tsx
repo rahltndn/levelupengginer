@@ -24,9 +24,9 @@ const CoursePage = () => {
   if (!course) return <Navigate to="/" replace />;
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-gradient-to-br from-background via-background to-accent/20">
       <Navbar />
-      <main>
+      <main className="pt-20">
         {/* Hero */}
         <section className="bg-accent/30 py-16 lg:py-20">
           <div className="container">

@@ -168,8 +168,8 @@ const StartupStudioSection = () => {
                 <Button asChild size="lg" variant="outline" className="border-slate-600 bg-slate-900/60 text-slate-100">
                   <Link to="/contact?interest=startup-studio">Talk to Us</Link>
                 </Button>
-                <p className="ml-1 text-xs text-slate-400 sm:text-sm">
-                  MVPs in weeks, not months. Founder-friendly, no fluff.
+                <p className="ml-1 text-sm text-slate-400">
+                  <span className="font-semibold text-primary">MVPs in weeks, not months. Founder-friendly, no fluff.</span>
                 </p>
               </motion.div>
             </div>
