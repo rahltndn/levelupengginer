@@ -12,7 +12,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background via-background to-accent/20">
       <Navbar />
-      <main className="pt-20">
+      <main>
         <section id="hero"><HeroSection /></section>
         <section id="courses"><CoursesOverview /></section>
         <section id="why-us"><WhyUs /></section>

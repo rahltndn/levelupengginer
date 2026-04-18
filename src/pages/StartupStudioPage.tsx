@@ -9,7 +9,7 @@ const StartupStudioPage = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background via-background to-accent/20">
       <Navbar />
-      <main className="pt-20">
+      <main>
         <StartupStudio />
       </main>
       <Footer />

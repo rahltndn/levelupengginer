@@ -25,9 +25,9 @@ const About = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background via-background to-accent/20">
       <Navbar />
-      <main className="pt-20">
+      <main>
         {/* Hero */}
-        <section className="bg-gradient-to-b from-accent/50 to-background py-12 lg:py-16">
+        <section className="bg-gradient-to-b from-accent/50 to-background pb-12 pt-32 lg:pb-16 lg:pt-40">
           <div className="container">
             <motion.div
               className="mx-auto max-w-3xl text-center"
