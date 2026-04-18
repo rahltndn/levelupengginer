@@ -23,9 +23,9 @@ const iconMap: Record<string, React.ReactNode> = {
 
 const About = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-gradient-to-br from-background via-background to-accent/20">
       <Navbar />
-      <main>
+      <main className="pt-20">
         {/* Hero */}
         <section className="bg-gradient-to-b from-accent/50 to-background py-12 lg:py-16">
           <div className="container">

@@ -7,9 +7,9 @@ import { Rocket } from "lucide-react";
 
 const StartupStudioPage = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-gradient-to-br from-background via-background to-accent/20">
       <Navbar />
-      <main>
+      <main className="pt-20">
         <StartupStudio />
       </main>
       <Footer />
